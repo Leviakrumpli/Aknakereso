@@ -1,0 +1,177 @@
+body {
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--masodszin);
+}
+
+h1{
+    color: var(--alapszin);
+}
+
+:root{
+    --alapszin: #edf2fc;
+    --masodszin: #212121;
+}
+
+.vilagos-tema{
+    --alapszin: #212121;
+    --masodszin: #edf2fc;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    border: 10px solid darkgray;
+    background-color: lightgray;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#board div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid whitesmoke;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked {
+    background-color: darkgrey;
+}
+
+.x1 {
+    color: blue;
+}
+
+.x2 {
+    color: green;
+}
+
+.x3 {
+    color: red;
+}
+
+.x4 {
+    color: navy;
+}
+
+.x5 {
+    color: brown;
+}
+
+.x6 {
+    color: teal;
+}
+
+.x7 {
+    color: black;
+}
+
+.x8 {
+    color: gray;
+}
+
+#flag-button {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: lightgray;
+    border: none;
+}
+
+#myButton {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: var(--masodszin);
+    color: var(--alapszin);
+    border: 2px solid red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+#ujjatek {
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    background-color: var(--masodszin);
+    color: var(--alapszin);
+    border: 2px solid red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+#ikon{
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#rules{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: var(--masodszin);
+    color: var(--alapszin);
+    border: 2px solid red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+#textField{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    color: var(--alapszin);
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#gitbutton{
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    background-color: var(--masodszin);
+    color: var(--alapszin);
+    border: 2px solid red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.zaszlok{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 42%;
+    right: 1%;
+    color: var(--alapszin);
+    font-size: small;
+}
+
+.h1cim{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    color: var(--alapszin);
+    font-size: 165%;
+}

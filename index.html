@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aknakereső</title>
+        <link rel="stylesheet" href="aknastyle.css">
+    </head>
+
+    <body>
+        <h1 id="focim">Aknakereső</h1>
+        <h1 id="h1cim" class="h1cim">Aknák: <span id="mines-count">0</span></h1>
+        <div class="zaszlok">
+            <h1 id="flagcount"></h1>
+        </div>
+
+        <button id="rules" onclick="displayText()">Szabályok, tudnivalók</button>
+
+        <div id="textField" style="display: none;">
+            Az aknakereső egy általában egyszemélyes játék,<br> melynek célja a játékmezőn lévő összes akna megtalálása anélkül,<br> hogy felfedné őket a játékos.<br><br>
+            A táblára kattintva a játékos találhat:<br>
+            -aknát, ami a játék végét jelenti,<br>
+            -egy üres szürke mezőt, ami azt jelenti,<br> hogy az adott négyzet körül nincs egy akna sem,<br>
+            -egy számot, ami azt mondja meg, hogy az adott<br> négyzet körül mennyi akna található (1-8).<br><br>
+            A felhasználó számára elérhető egy zászló gomb segítségként,<br> amit ha használ a játékos akkor könnyebben olvasható lesz a játék,<br> mivel tudni fogja, hogy az alatt szinte biztosan egy akna található.<br>
+            Ezt a zászlót bármelyik mezőre le lehet helyezni,<br> szóval nem biztos, hogy mindig jó helyre fog kerülni.
+        </div>
+
+        <br>
+        <div id="board"></div>
+        <br>
+        <button id="flag-button">🚩</button>
+        <button id="myButton">Aknák számának változtatása</button>
+        <button id="ujjatek">Új játék</button>
+        <button id="gitbutton">GitHub</button>
+        <img src="nap.png" id="ikon">
+        <script src="aknajs.js"></script>
+    </body>
+</html>
