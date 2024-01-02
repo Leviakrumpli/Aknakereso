@@ -1,0 +1,58 @@
+@media all and (max-width: 900px){
+    .dropbtn{
+        display: block;
+    }
+
+    #gitbutton{
+        display: none;
+    }
+
+    #rules{
+        display: none;
+    }
+
+    #myButton{
+        display: none;
+    }
+
+    #ujjatek{
+        display: none;
+    }
+
+    #ikon{
+        display: none;
+    }
+}
+
+@media (max-width: 720px){
+    .h1cim {
+        position: relative;
+        top: 10%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: var(--alapszin);
+        font-size: 165%;
+    }
+    
+    .zaszlok{
+        position: relative;
+        top: 28%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: var(--alapszin);
+        font-size: small;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 1350px){
+
+    #textField{
+        display: flex;
+        justify-content: center;
+        left: 8%;
+        top: 110%;
+        min-width: 80%;
+        margin: auto;
+    }
+}
